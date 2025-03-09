@@ -22,6 +22,7 @@ app.engine('.hbs', handlebars({extname: '.hbs'}));
 app.set('views', path.join(__dirname, 'resources/views'));
 app.set('view engine', '.hbs');
 
+// Home, search, contact
 
 //Routes init
 route(app);
