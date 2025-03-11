@@ -26,11 +26,15 @@
   "dependencies": {
     "blog": "file:",
     "express": "^4.21.1",
-    "express-handlebars": "^8.0.1"
+    "express-handlebars": "^8.0.1",
+    "mongoose": "^8.12.1"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.7",
+    "prettier": "^3.5.3",
     "sass": "^1.85.1"
   }
 }

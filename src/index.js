@@ -5,6 +5,10 @@ const app = express();
 const port = 3000;
 const path = require('path');
 const route = require('./routes');
+const db = require('./config/db');
+
+//connect DB
+db.connect();
 
 app.use(express.static(path.join(__dirname, 'publish')));
 
